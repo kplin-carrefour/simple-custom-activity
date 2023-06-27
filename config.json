@@ -3,7 +3,7 @@
     "metaData": {
         "category": "flow"
     },
-    "type": "REST",
+    "type": "RESTDECISION",
     "userInterfaces": {
         "configInspector": {
             "size": "medium"
