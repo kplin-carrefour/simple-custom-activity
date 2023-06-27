@@ -3,10 +3,20 @@
     "metaData": {
         "category": "flow"
     },
-    "type": "RESTDECISION",
+    "type": "RestDecision",
     "userInterfaces": {
         "configInspector": {
             "size": "medium"
         }
-    }
+    },
+    "outcomes": [
+        {
+            "arguments": { "branchResult": "tratamento" },
+            "metaData": { "label": "Tratamento" }
+        },
+        {
+            "arguments": { "branchResult": "controle" },
+            "metaData": { "label": "Controle" }
+        }
+    ]
 }
