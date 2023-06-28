@@ -3,7 +3,7 @@
     "metaData": {
         "category": "flow"
     },
-    "type": "RESTDECISION",
+    "type": "REST",
     "arguments": {
         "execute": {
             "url": "https://encqitqc9a3mj.x.pipedream.net/execute"
