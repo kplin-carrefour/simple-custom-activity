@@ -4,12 +4,6 @@
         "category": "flow"
     },
     "type": "RESTDECISION",
-    "lang": {
-        "en-US": {
-            "name": "Code Engagement",
-            "description": "Check the status of the discount code."
-        }
-    },
     "arguments": {
         "execute": {
             "inArguments": [],
@@ -18,8 +12,17 @@
         }
     },
     "configurationArguments": {
+        "save": {
+            "url": "https://encqitqc9a3mj.x.pipedream.net/save"
+        },
         "publish": {
             "url": "https://encqitqc9a3mj.x.pipedream.net/publish"
+        },
+        "validate": {
+            "url": "https://encqitqc9a3mj.x.pipedream.net/validate"
+        },
+        "stop": {
+            "url": "https://encqitqc9a3mj.x.pipedream.net/stop"
         }
     },
     "userInterfaces": {
