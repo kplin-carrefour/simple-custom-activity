@@ -1,12 +1,22 @@
 {
     "workflowApiVersion": "1.1",
     "metaData": {
-        "category": "flow"
+        "category": "flow",
+        "isConfigured": true
     },
-    "type": "REST",
+    "type": "RESTDECISION",
+    "lang": {
+		"en-US": {
+			"name": "RestDecision",
+			"description": "RestDecision description"
+		}
+	},
     "arguments": {
         "execute": {
-            "url": "https://encqitqc9a3mj.x.pipedream.net/execute"
+            "url": "https://encqitqc9a3mj.x.pipedream.net/execute",
+            "retryCount": 5,
+            "retryDelay": 5000,
+            "concurrentRequests": 1
         }
     },
     "configurationArguments": {
