@@ -3,20 +3,52 @@
     "metaData": {
         "category": "flow"
     },
-    "type": "RestDecision",
-    "userInterfaces": {
-        "configInspector": {
-            "size": "medium"
+    "type": "RESTDECISION",
+    "lang": {
+        "en-US": {
+            "name": "Code Engagement",
+            "description": "Check the status of the discount code."
         }
     },
-    "outcomes": [
-        {
-            "arguments": { "branchResult": "tratamento" },
-            "metaData": { "label": "Tratamento" }
-        },
-        {
-            "arguments": { "branchResult": "controle" },
-            "metaData": { "label": "Controle" }
+    "arguments": {
+        "execute": {
+            "inArguments": [],
+            "outArguments": [],
+            "url": "https://encqitqc9a3mj.x.pipedream.net/execute"
         }
-    ]
+    },
+    "configurationArguments": {
+        "publish": {
+            "url": "https://encqitqc9a3mj.x.pipedream.net/publish"
+        }
+    },
+    "userInterfaces": {
+        "configInspector": {
+            "size": "scm-lg",
+            "emptyIframe": true,
+        }
+    },
+    "outcomes": [{
+        "arguments": {
+            "branchResult": "tratamento"
+        },
+        "metaData": {
+            "label": "Tratamento"
+        }
+    }, {
+        "arguments": {
+            "branchResult": "controle"
+        },
+        "metaData": {
+            "label": "Controle"
+        }
+    }],
+    "schema": {
+        "arguments": {
+            "execute": {
+                "inArguments": [],
+                "outArguments": []
+            }
+        }
+    }
 }
