@@ -24,8 +24,7 @@
     },
     "userInterfaces": {
         "configInspector": {
-            "size": "scm-lg",
-            "emptyIframe": true
+            "size": "medium"
         }
     },
     "outcomes": [{
