@@ -6,31 +6,42 @@
     },
     "type": "RESTDECISION",
     "lang": {
-		"en-US": {
-			"name": "RestDecision",
-			"description": "RestDecision description"
-		}
-	},
+        "en-US": {
+            "name": "RestDecision",
+            "description": "RestDecision description"
+        }
+    },
     "arguments": {
         "execute": {
-            "url": "https://encqitqc9a3mj.x.pipedream.net/execute",
+            "url": "https://control-group-custom-activity.onrender.com/execute",
             "retryCount": 5,
             "retryDelay": 5000,
-            "concurrentRequests": 1
+            "concurrentRequests": 1,
+            "method": "POST",
+            "useJwt": false,
+            "timeout": 3000
         }
     },
     "configurationArguments": {
         "save": {
-            "url": "https://encqitqc9a3mj.x.pipedream.net/save"
+            "url": "https://control-group-custom-activity.onrender.com/save",
+            "useJwt": false,
+            "timeout": 3000
         },
         "publish": {
-            "url": "https://encqitqc9a3mj.x.pipedream.net/publish"
+            "url": "https://control-group-custom-activity.onrender.com/publish",
+            "useJwt": false,
+            "timeout": 3000
         },
         "validate": {
-            "url": "https://encqitqc9a3mj.x.pipedream.net/validate"
+            "url": "https://control-group-custom-activity.onrender.com/validate",
+            "useJwt": false,
+            "timeout": 3000
         },
         "stop": {
-            "url": "https://encqitqc9a3mj.x.pipedream.net/stop"
+            "url": "https://control-group-custom-activity.onrender.com/stop",
+            "useJwt": false,
+            "timeout": 3000
         }
     },
     "userInterfaces": {
